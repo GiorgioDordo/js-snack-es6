@@ -8,4 +8,10 @@ const students = [
     {Id:102, name: 'Piero della Francesca', grades: 50},
     {Id:120, name: 'Francesca da Polenta', grades: 84}
     ]
-
+    
+// todo students name uppercase
+    const studentsName = students.map((student) => {
+        const studentsName = student.name.toUpperCase();
+        return studentsName;
+    });
+    console.log(studentsName);
