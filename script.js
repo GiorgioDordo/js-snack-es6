@@ -16,3 +16,5 @@ const guests = invited.map((guest) => {
 });
 
 console.log(guests);
+
+
